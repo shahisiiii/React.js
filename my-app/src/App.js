@@ -2,10 +2,10 @@ import './App.css'
 import Header from './components/Header'
 
 function App() {
-  const data='shahis'
+  const data='Jabeel shahis'
   return (
     <div>
-      <Header/>
+      <Header data={data}/>
       <p>{data}</p>
 
     </div>
